@@ -25,7 +25,7 @@ CREATE OR REPLACE PACKAGE ai_bcms_cii_returns_pkg AS
 -- *                                     and PROCEDURE p_bcms_cii_pop_inspections.
 -- * Iain High        5     15-MAR-2019  Added PROCEDURE p_update_max_batch_size.
 -- * Iain High        6     19-MAR-2019  Renamed PROCEDURE p_bcms_cii_rollback_last_batch to p_bcms_cii_rollback_batch.
--- *
+-- * Branch1 changes
 -- ***********************************************************************************
 
   FUNCTION fn_lead_inspector_name ( p_inspection_id IN inspections_all.i_id%TYPE) RETURN CHAR;
